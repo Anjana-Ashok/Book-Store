@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <!-- Navbar top -->
+    <header>
+        <div class="navbar-top">
+            <div class="social-links">
+                <img src="twitter.avif" alt="Twitter" width="30px">
+                <img src="fb.jpg" alt="Facebook" width="30px">
+                <img src="insta.jpg" alt="Instagram" width="30px">
+            </div>
+            <div class="logo">
+                <h3>BOOKBAE</h3>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+    </header>
+    <!-- End Navbar top -->
+
+    <!-- Main content -->
+    <div class="main-content">
+        <nav class="navbar navbar-expand-lg" id="navbar-color">
+            <div class="header">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsiblenavbar">
+                <span><img src="Books1.jpg" alt="Books" width="30px"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsiblenavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Free">Free books</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bs">Best Sellers</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Collections
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#cs1">Wuthering Heights</a></li>
+                            <li><a class="dropdown-item" href="#cs1">Pride and Prejudice</a></li>
+                            <li><a class="dropdown-item" href="#cs1">To Kill a Mockingbird</a></li>
+                            <li><a class="dropdown-item" href="#js">Javascript</a></li>
+                            <li><a class="dropdown-item" href="#c">C Programming</a></li>
+                            <li><a class="dropdown-item" href="#c++">C++</a></li>
+                            <li><a class="dropdown-item" href="#P">Python Programming</a></li>
+                            <li><a class="dropdown-item" href="#j">Java Programming</a></li>
+                            <li><a class="dropdown-item" href="#f">Flutter(Dart)</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Signin">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Signin">Signin</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+
+        </nav>
+        <br>
+    <div class="content">
+    <h1>
+
+        Find your next great read—
+        <br> our top picks now!
+    </h1>
+    <div id="btn1"><button>shop now</button></div>
+
+    </div>
+    <!-- End Main content -->
+     <br><br>
+     <div class="carousel-container" id="bs">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" id="cs1">
+            <img src="wut heights.png" class="d-block w-100" alt="Wuthering Heights">
+          </div>
+          <div class="carousel-item" id="cs1">
+            <img src="p and p.jpg" class="d-block w-100" alt="pride and prejudice">
+          </div>
+          <div class="carousel-item" id="cs1">
+            <img src="tkm.jpg" class="d-block w-100" alt="mocking bird">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+      </div>
+      </div>
+      <br><br>
+      <div class="main">
+      <div class="Signin" id="Signin">
+        <h3>User Login</h3>
+        <form>
+            <div class="textbox">
+                <label for="Username">Username</label><br>
+                <input type="text" id="Username" name="username"><br><br>
+                <label for="Password">Password</label><br>
+                <input type="password" id="Password" name="password"><br><br>
+                <button type="submit" class="button">Log In</button>
+            </div> 
+        </form>
+        <p><b>Need an account?</b> <a href="#">Sign Up</a></p>
+</div>
+    <div class="info">
+        <section class="info1">
+    
+        <h4>
+            Deciding what to read next?
+        </h4>
+        <p>You’re in the right place. Tell us what titles or genres you’ve enjoyed in the past,and we’ll give you surprisingly insightful recommendations.</p>
+        </section>
+        <section class="info2">
+        <h4>
+        What are your friends reading?
+    </h4>
+        
+    <p>Chances are your friends are discussing their favorite (and least favorite) books on BOOKBAE</p>
+        </section>
+    </div>
+
+    </div>
+      </div>
+      <div class="best-seller" id="Free">
+                    <b><u><i><h2>#Educational </h2></i></u></b>
+            </div>
+        </div>
+        
+      </div>
+      <h1 class="text-center my-4">Top Courses Pdf Books Free Download</h1>
+      <br><br>
+      <div class="row row-col-1 row-cols-md-3 m-auto my-4">
+        <div class="m-auto col-md-3" id="cards">
+          <div class="card h-100">
+            <img src="https://miro.medium.com/max/1800/1*5eV1xmJs2-sJ4DdejfdnQA.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title" id="js">Javascript</h5>
+              <p class="card-text">
+                This Is A Book For Javascript. Beginner Friendly all Things need foe beginners there in pdf book mentioned
+                please Download and gain knowledge about javascript
+              </p>
+              <a href="https://drive.google.com/file/d/1YOuhfAak-Z3Ra_NBX9_AMhFShuQsMMpI/view?usp=sharing" download
+                target="_blank" class="btn btn-info" data-toggle="tooltip" data-bs-placement="right"
+                title="Download Book">Download Book</a>
+            </div>
+          </div>
+        </div>
+        <div class="m-auto col-md-3">
+          <div class="card h-100">
+            <img src="https://i.pinimg.com/originals/1f/ec/3e/1fec3ee0665075852c4665a01259682d.png" class="card-img-top"
+              alt="..." />
+            <div class="card-body" id="c">
+              <h5 class="card-title">C Programming</h5>
+              <p class="card-text">Advance C Programming Course From Pdf File Please Download This File From Here and You
+                Have From Zero To Hero In C Programming</p>
+              <a href="https://drive.google.com/file/d/1_NA-zRm6BXcI8Q45UJmQ0o1NGBQkFQF8/view?usp=sharing" download
+                target="_blank" class="btn btn-info" data-toggle="tooltip" data-bs-placement="right"
+                title="Download Book">Download Book</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 m-auto">
+          <div class="card h-100">
+            <img src="https://www.vtc.com/files/images/courses/33797.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title" id="c++">C++ Course</h5>
+              <p class="card-text">
+                Advance C++ Course in Simple English Labguage Please Download A Pdf From Here and Gain Your Knowlwdge in C++
+              </p>
+              <a href="https://drive.google.com/file/d/11W13yROf4_qr7N0P9HbBeB-SKTdeQs6W/view?usp=sharing" download
+                target="_blank" class="btn btn-info" data-toggle="tooltip" data-bs-placement="right"
+                title="Download Book">Download Book</a>
+    
+            </div>
+          </div>
+        </div>
+    
+      </div>
+      </div>
+      <div class="row row-col-1 row-cols-md-3 m-auto my-4 mb-8">
+        <div class="m-auto col-md-3">
+          <div class="card h-100">
+            <img src="https://miro.medium.com/max/840/1*RJMxLdTHqVBSijKmOO5MAg.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title" id="p">Python Programming</h5>
+              <p class="card-text">
+                Python Programming Course From Basic To Advance Level Please Download a Pdf File and Make You To A
+                Professional Python Developer Or Freelancer.
+              </p>
+              <a href="https://drive.google.com/file/d/1BQsKJ7yCo93vCW9SoJibFOUGPYivdgQ_/view?usp=sharing" download
+                target="_blank" class="btn btn-info" data-toggle="tooltip" data-bs-placement="right"
+                title="Download Book">Download Book</a>
+    
+            </div>
+          </div>
+        </div>
+        <div class="m-auto col-md-3">
+          <div class="card h-100">
+            <img src="https://d1jnx9ba8s6j9r.cloudfront.net/imgver.1551437392/img/co_img_193_1504782213.png"
+              class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title" id="j">Java Programming</h5>
+              <p class="card-text">Java Programming Language From Basic To Advance Level. Learn Java Programming With Object
+                Oriented Programming(OOP) From This Pdf Book.</p>
+              <a href="https://drive.google.com/file/d/1I_D-UmWHdXkNKNODdlvfNxtzHyMkA8M8/view?usp=sharing" download
+                target="_blank" class="btn btn-info" data-toggle="tooltip" data-bs-placement="right"
+                title="Download Book">Download Book</a>
+    
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 m-auto">
+          <div class="card h-100">
+            <img src="https://www.surat-training-course.com/ampimage/fluttercourseinsurat.webp" class="card-img-top"
+              alt="..." />
+            <div class="card-body">
+              <h5 class="card-title" id="f">Flutter(DART)</h5>
+              <p class="card-text">
+                Learn Flutter From Basic To Advance Level. you can build android, desktop and ios application using flutter.
+              </p>
+              <a href="https://drive.google.com/file/d/1wY9Ky8cHO1D5WCnCr0ppFSyL2RiHYP0K/view?usp=sharing" download
+                target="_blank" class="btn btn-info" data-toggle="tooltip" data-bs-placement="right"
+                title="Download Book">Download Book</a>
+    
+            </div>
+          </div>
+        </div>
+</div>
+
+    
+</body>
+</html>
